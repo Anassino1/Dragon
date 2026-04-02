@@ -49,7 +49,7 @@ function sendWhatsApp() {
 
   message += `Total: ${total} MAD`;
 
-  let phone = '212600000000';
+  let phone = '+212700190250';
   let url = `https://wa.me/${phone}?text=${message}`;
 
   window.open(url, '_blank');
