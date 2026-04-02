@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Dragon Chef</h1>
+
+<div class="menu">
+
+  <div class="item" onclick="addToCart('assortiment kyoto24120dh', 120)">
+    <img src="images/assortiment kyoto24120dh.jpg">
+    <div class="info">
+      <div class="name">Assortiment kyoto 24 piece</div>
+      <div class="price">120 MAD</div>
+    </div>
+  </div>
+
+  <div class="item" onclick="addToCart('Assortiment family', 199)">
+    <img src="images/family40199.jpg">
+    <div class="info">
+      <div class="name">Assortiment family 40 piece</div>
+      <div class="price">199 MAD</div>
+    </div>
+  </div>
+
+  <div class="item" onclick="addToCart('Assortiment yakutana 30 piece', 40)">
+    <img src="images/assortimentyakutana30149.jpg">
+    <div class="info">
+      <div class="name">Assortiment yakutana 30 piece</div>
+      <div class="price">149 MAD</div>
+    </div>
+  </div>
+
+  <div class="item" onclick="addToCart('Assortiment Yokohama', 85)">
+    <img src="images/yakohama.jpg">
+    <div class="info">
+      <div class="name">Assortiment Yokohama 16</div>
+      <div class="price">85 MAD</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="cart">
+  <div id="cartItems"></div>
+  <div class="total">Total: <span id="total">0</span> MAD</div>
+  <div class="btn" onclick="sendWhatsApp()">Order via WhatsApp</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
